@@ -65,16 +65,16 @@ For example, a user with a 6-core processor should use these `Replace` values: `
 
 # What's work
 - Ethernet
-- Sounds*
 - APU (radeon Vega 10)
 - Battery status
 - Iservices (IMessage, Icloud, etc..)
 
-* It doesn't work on MacOS 26 Tahoe due to removal of AppleHDA (can be fixed [here](https://github.com/GeantW0rld/Aorus-B550M-Elite-Hackintosh?tab=readme-ov-file#how-to-fix-audio-on-tahoe))
-
 # What's doesn't work
 - Cannot run VM due to the cpu
 - Internal display doesn't show anything
+- Sounds*
+
+* It doesn't work on MacOS 26 Tahoe due to removal of AppleHDA (can be fixed [here](https://github.com/GeantW0rld/Aorus-B550M-Elite-Hackintosh?tab=readme-ov-file#how-to-fix-audio-on-tahoe))
 
 # How to fix Audio on Tahoe
 - download [VoodooHDA](https://github.com/CloverHackyColor/VoodooHDA/releases/tag/Release302) (VoodooHDA.kext-302.zip and VoodooHDA.prefPane.zip)
