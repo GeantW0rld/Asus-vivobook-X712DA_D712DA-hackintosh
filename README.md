@@ -68,6 +68,8 @@ For example, a user with a 6-core processor should use these `Replace` values: `
 - APU (radeon Vega 10)
 - Battery status
 - Iservices (IMessage, Icloud, etc..)
+- Internal Keyboard
+- Trackpad
 
 # What's doesn't work
 - Cannot run VM due to the cpu
