@@ -93,7 +93,7 @@ sudo cp -r VoodooHDA.kext /Library/Extensions/
 - after allow loading VoodooHDA in the system settings
 - finally reboot
 - then install VoodooHDA.prefPane
-- allow extension then you have sounds :DÒ
+- allow extension then you have sounds :D
 
 # Some screenshots
 ![Screenshot](./Images/Tahoe.png)
