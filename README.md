@@ -11,7 +11,7 @@ Prebuilt opencore EFI for macos
 | CPU                 | AMD Ryzen 7 3700U                           |
 | Memory              | 16GB of ram DDR4                            |
 | SSD                 | NVMe Micron_2200V8MTFDHBA256TCK 239GB       |
-| Integrated GrÒaphics | AMD Radeon RX Vega 10                      |
+| Integrated Graphics | AMD Radeon RX Vega 10                      |
 | Sound Card          | ALC887                                      |
 | Wireless Card       | NOT SUPPORTED                               |
 | Ethernet/LAN        | Realtek® GbE LAN USB                       |
