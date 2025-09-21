@@ -49,7 +49,7 @@ You should use [ProperTree](https://github.com/corpnewt/ProperTree) as PLIST Edi
 For example, a user with a 6-core processor should use these `Replace` values: `B8 06 0000 0000` / `BA 06 0000 0000` / `BA 06 0000 0090` / `BA 06 0000 00`
 
 
-- change SMBIOS with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) and [replace it](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#platforminfo) (use MacPro7,1 or IMacPro1,1)
+- change SMBIOS with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) and [replace it](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#platforminfo) (use MacBookPro16,3 or MacBookPro16,3)
 
 # Bios Settings
 | settings            | Option                                      |
@@ -58,25 +58,23 @@ For example, a user with a 6-core processor should use these `Replace` values: `
 | Secure Boot            |  Disabled                 |
 | IOMMU            |  Disabled                 |
 | CSM            |  Disabled                 |
-| Above 4G Decoding            |  Enabled<sup>1</sup>                 |
-| Resizable BAR Support           |  Enabled<sup>2</sup>                  |
 | SATA Mode           |  AHCI                  |
-| OS Type          |  Windows 10/UEFI<sup>3</sup>                  |
+| OS Type          |  Windows 10/UEFI<sup>1</sup>                  |
 
-- <sup>1</sup> if you can't find the option then add `npci=0x3000` or `npci=0x2000` to boot-args
-- <sup>2</sup> When enabling Above 4G, Resizable BAR Support can be enabled Please ensure that Booter -> Quirks -> ResizeAppleGpuBars is set to 0 if this is enabled.
-- <sup>3</sup> some motherboards may require "Other OS" instead
+- <sup>1</sup> some models may require "Other OS" instead
 
 # What's work
 - Ethernet
 - Sounds*
-- GPU
+- APU (radeon Vega 10)
+- Battery status
 - Iservices (IMessage, Icloud, etc..)
 
 * It doesn't work on MacOS 26 Tahoe due to removal of AppleHDA (can be fixed [here](https://github.com/GeantW0rld/Aorus-B550M-Elite-Hackintosh?tab=readme-ov-file#how-to-fix-audio-on-tahoe))
 
 # What's doesn't work
 - Cannot run VM due to the cpu
+- Internal display doesn't show anything
 
 # How to fix Audio on Tahoe
 - download [VoodooHDA](https://github.com/CloverHackyColor/VoodooHDA/releases/tag/Release302) (VoodooHDA.kext-302.zip and VoodooHDA.prefPane.zip)
@@ -107,6 +105,8 @@ Go to release or download the repo zip file
 
 [AMD Vanilla](https://github.com/AMD-OSX/AMD_Vanilla) - Patch for AMD CPU
 
-[Acidanthera](https://github.com/acidanthera) - OpenCore Bootloader |  AppleALC | Lilu | VirtualSMC | WhateverGreen | etc
+[Acidanthera](https://github.com/acidanthera) - OpenCore Bootloader |  AppleALC | Lilu | VirtualSMC | etc
+
+[ChefKissInc](https://github.com/ChefKissInc/) - for Nootedred
 
 [Apple](https://www.apple.com/) - Made MacOS
