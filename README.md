@@ -65,11 +65,13 @@ For example, a user with a 6-core processor should use these `Replace` values: `
 
 # What's work
 - Ethernet
-- APU (radeon Vega 10)
+- APU (radeon Vega 10)**
 - Battery status
 - Iservices (IMessage, Icloud, etc..)
 - Internal Keyboard
 - Trackpad
+
+** Nootedred is under active research and development
 
 # What's doesn't work
 - Cannot run VM due to the cpu
