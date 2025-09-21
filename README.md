@@ -94,7 +94,6 @@ sudo cp -r VoodooHDA.kext /Library/Extensions/
 - allow extension then you have sounds :DÒ
 
 # Some screenshots
-![Screenshot](./Images/info.png)
 ![Screenshot](./Images/Tahoe.png)
 
 # Download
